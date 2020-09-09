@@ -1,0 +1,20 @@
+.wrapper,body,html {
+    height: 100%
+}
+
+.sec-thank-you,
+.sec-404{
+    height: calc(100% - 110px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 120px;
+}
+
+.sec-privacy-policy{
+    padding-top: 150px;
+    word-break: break-word;
+    @include media(max-width, 1023px){
+        padding-top: 100px;
+    }
+}
